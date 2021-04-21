@@ -15,7 +15,6 @@ class HomePage extends StatelessWidget {
            stream: FirebaseAuth.instance.authStateChanges(),
            builder: (context, snapshot) {
              final provider = Provider.of<GoogleSignInProvider>(context);
-
              if (provider.isSigningIn) {
                return buildloading();
              } else if (snapshot.hasData) {
