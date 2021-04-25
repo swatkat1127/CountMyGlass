@@ -38,6 +38,7 @@ class _LoggedInWidgetState extends State<LoggedInWidget> {
       if (user != null) {
         loggedInUser = user;
 
+
         // check firebase profile collection using user.uid
 
         // if yes then get the profile from firebase and store in profile object
