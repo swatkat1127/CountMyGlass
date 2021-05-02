@@ -7,7 +7,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 final _firestore = FirebaseFirestore.instance;
 User loggedInUser;
-
 // ignore: must_be_immutable
 class LoggedInWidget extends StatefulWidget{
   @override

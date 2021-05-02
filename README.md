@@ -1,16 +1,7 @@
-# google_signin
+# CountMyGlass
 
-A new Flutter application.
+A new Flutter application for tracking daily water consumption.
 
-## Getting Started
+App design has two pages one is the welcome page, which contains one-button for login with Google. When user clicks on this button, the app is redirected to second page where user loggedin status is shown with his name and email id,his daily water consumption and a logout button.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

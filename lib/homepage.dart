@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
  @override
   Widget build(BuildContext context) => Scaffold(
      body: ChangeNotifierProvider(
-    create: (context) => GoogleSignInProvider(),
+     create: (context) => GoogleSignInProvider(),
        child: StreamBuilder(
            stream: FirebaseAuth.instance.authStateChanges(),
            builder: (context, snapshot) {
@@ -28,6 +28,6 @@ class HomePage extends StatelessWidget {
   ),
 
  );
- Widget buildloading() => Center(child: CircularProgressIndicator(),
+  Widget buildloading() => Center(child: CircularProgressIndicator(),
  );
 }
